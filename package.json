@@ -1,0 +1,34 @@
+{
+	"name": "vscode-color5",
+	"displayName": "Color 5",
+	"description": "VS Code editor theme",
+	"publisher": "hisbvdis",
+	"version": "0.0.1",
+	"homepage": "https://github.com/hisbvdis/color5",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hisbvdis/color5"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"license": "MIT",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Color 5",
+				"uiTheme": "vs",
+				"path": "./themes/color5.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "c40b1d82-c346-4e6d-a5d3-de948b1f9b61",
+		"publisherId": "a410cbcf-f0d3-46da-9bc1-db019d82227a",
+		"publisherDisplayName": "hisbvdis",
+		"installedTimestamp": 1633268513345
+	}
+}
