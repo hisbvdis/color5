@@ -4,7 +4,7 @@
   "name": "Color5",
   "colors": {
     "activityBarBadge.background": "#007acc",
-    "editor.background": "#ffffff",
+    "editor.background": "#fafafa",
     "editor.foreground": "#000000",
     "editor.inactiveSelectionBackground": "#e5ebf1",
     "editor.lineHighlightBorder": "#00000000",
@@ -30,7 +30,7 @@
     "statusBarItem.errorBackground": "#c72e0f",
     "statusBarItem.remoteBackground": "#16825d",
     "statusBarItem.remoteForeground": "#ffffff",
-    "tab.activeBackground": "#ffffff",
+    "tab.activeBackground": "#fafafa",
     "tab.border": "#cccccc",
     "tab.inactiveBackground": "#e3e3e3",
     "tab.lastPinnedBorder": "#61616130",
@@ -39,6 +39,8 @@
   "tokenColors": [{
       "scope": [
         "support.type.property-name.json",
+        "meta.object-literal.key string",
+        "keyword.other.unit",
       ],
       "settings": {
         "foreground": "#000000"
@@ -46,51 +48,12 @@
     },
     {
       "scope": [
-        
-      ],
-      "settings": {
-        "foreground": "#0550AE"
-      }
-    },
-    {
-      "scope": [
-        
-      ],
-      "settings": {
-        "foreground": "#005CC5"
-      }
-    },
-    {
-      "scope": [
-        "storage.type",
+        "storage",
         "keyword",
       ],
       "settings": {
-        "foreground": "#1500ff"
-      }
-    },
-    {
-      "scope": [
-        
-      ],
-      "settings": {
-        "foreground": "#0055ff"
-      }
-    },
-    {
-      "scope": [
-        
-      ],
-      "settings": {
-        "foreground": "#2680ed"
-      }
-    },
-    {
-      "scope": [
-        
-      ],
-      "settings": {
-        "foreground": "#2690ed"
+        // "foreground": "#1500ff"
+        "foreground": "#2a00ff"
       }
     },
     {
@@ -99,8 +62,8 @@
         "support.function",
       ],
       "settings": {
-        // "foreground": "#00AACC"
-        "foreground": "#0099cc"
+        // "foreground": "#0099cc"
+        "foreground": "#00a1e6"
       }
     },
     {
@@ -117,14 +80,6 @@
       ],
       "settings": {
         "foreground": "#c26e00"
-      }
-    },
-    {
-      "scope": [
-        
-      ],
-      "settings": {
-        "foreground": "#AF00DB"
       }
     },
     {
