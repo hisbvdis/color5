@@ -4,7 +4,7 @@
   "name": "Color5",
   "colors": {
     "activityBarBadge.background": "#007acc",
-    "editor.background": "#fafafa",
+    "editor.background": "#ffffff",
     "editor.foreground": "#000000",
     "editor.inactiveSelectionBackground": "#e5ebf1",
     "editor.lineHighlightBorder": "#00000000",
@@ -30,7 +30,7 @@
     "statusBarItem.errorBackground": "#c72e0f",
     "statusBarItem.remoteBackground": "#16825d",
     "statusBarItem.remoteForeground": "#ffffff",
-    "tab.activeBackground": "#fafafa",
+    "tab.activeBackground": "#ffffff",
     "tab.border": "#cccccc",
     "tab.inactiveBackground": "#e3e3e3",
     "tab.lastPinnedBorder": "#61616130",
@@ -43,8 +43,10 @@
         "keyword.other.unit",
 
         "meta.embedded",
-        "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end",
+
+        "constant.other.character-class.regexp",
+        "string.regexp punctuation.definition.string.begin.js",
+        "string.regexp punctuation.definition.string.end.js",
       ],
       "settings": {
         "foreground": "#000000"
@@ -67,6 +69,8 @@
       "scope": [
         "entity.name.function",
         "support.function",
+
+        
       ],
       "settings": {
         // "foreground": "#0099cc"
@@ -109,6 +113,10 @@
     {
       "scope": [
         "entity.name.tag",
+
+        "punctuation.definition.character-class.regexp",
+        "punctuation.definition.group.regexp",
+        "meta.assertion.look-ahead.regexp"
       ],
       "settings": {
         "foreground": "#CF222E"
