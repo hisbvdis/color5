@@ -80,6 +80,8 @@
     {
       "scope": [
         "string",
+
+        "markup.inline.raw",
       ],
       "settings": {
         "foreground": "#009900"
@@ -149,7 +151,7 @@
     },
     {
       "scope": [
-        
+        "markup.italic",
       ],
       "settings": {
         "fontStyle": "italic",
