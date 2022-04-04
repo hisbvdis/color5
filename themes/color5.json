@@ -127,6 +127,7 @@
     {
       "scope": [
         "markup.heading",
+        "markup.heading markup.inline.raw",
       ],
       "settings": {
         "foreground": "#a21319"
