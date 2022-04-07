@@ -47,6 +47,8 @@
         "constant.other.character-class.regexp",
         "string.regexp punctuation.definition.string.begin.js",
         "string.regexp punctuation.definition.string.end.js",
+
+        "markup.bold markup.inline.raw",
       ],
       "settings": {
         "foreground": "#000000"
