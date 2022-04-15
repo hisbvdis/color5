@@ -47,8 +47,6 @@
         "constant.other.character-class.regexp",
         "string.regexp punctuation.definition.string.begin.js",
         "string.regexp punctuation.definition.string.end.js",
-
-        "markup.bold markup.inline.raw",
       ],
       "settings": {
         "foreground": "#000000"
@@ -58,32 +56,27 @@
       "scope": [
         "storage",
         "keyword",
+        "meta.type.annotation",
 
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
       ],
       "settings": {
-        // "foreground": "#1500ff"
         "foreground": "#2a00ff"
       }
     },
     {
       "scope": [
         "entity.name.function",
-        "support.function",
-
-        
+        "support.function",  
       ],
       "settings": {
-        // "foreground": "#0099cc"
         "foreground": "#00a1e6"
       }
     },
     {
       "scope": [
         "string",
-
-        "markup.inline.raw",
       ],
       "settings": {
         "foreground": "#009900"
@@ -129,7 +122,6 @@
     {
       "scope": [
         "markup.heading",
-        "markup.heading markup.inline.raw",
       ],
       "settings": {
         "foreground": "#a21319"
@@ -154,7 +146,7 @@
     },
     {
       "scope": [
-        "markup.italic",
+        
       ],
       "settings": {
         "fontStyle": "italic",
