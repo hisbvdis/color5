@@ -56,7 +56,7 @@
       "scope": [
         "storage",
         "keyword",
-        "meta.type.annotation",
+        "support.type",
 
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
