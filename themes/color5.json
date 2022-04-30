@@ -41,6 +41,7 @@
         "support.type.property-name.json",
         "meta.object-literal.key string",
         "keyword.other.unit",
+        "markup.bold markup.inline.raw",
 
         "meta.embedded",
 
@@ -56,7 +57,8 @@
       "scope": [
         "storage",
         "keyword",
-        "support.type",
+        "meta.type.annotation support.type",
+        "meta.type.annotation entity.name.type",
 
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
@@ -77,6 +79,7 @@
     {
       "scope": [
         "string",
+        "markup.inline.raw",
       ],
       "settings": {
         "foreground": "#009900"
@@ -122,6 +125,7 @@
     {
       "scope": [
         "markup.heading",
+        "markup.heading markup.inline.raw",
       ],
       "settings": {
         "foreground": "#a21319"
@@ -146,7 +150,7 @@
     },
     {
       "scope": [
-        
+        "markup.italic",
       ],
       "settings": {
         "fontStyle": "italic",
