@@ -58,7 +58,9 @@
         "storage",
         "keyword",
         "meta.type.annotation support.type",
-        "meta.type.annotation entity.name.type",
+        "meta.return.type support.type",
+        // "meta.type.annotation entity.name.type",
+        "entity.name.type",
 
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
@@ -116,7 +118,7 @@
 
         "punctuation.definition.character-class.regexp",
         "punctuation.definition.group.regexp",
-        "meta.assertion.look-ahead.regexp"
+        "meta.assertion.look-ahead.regexp",
       ],
       "settings": {
         "foreground": "#CF222E"
