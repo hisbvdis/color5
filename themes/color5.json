@@ -57,10 +57,8 @@
       "scope": [
         "storage",
         "keyword",
-        "meta.type.annotation support.type",
-        "meta.return.type support.type",
-        // "meta.type.annotation entity.name.type",
-        "entity.name.type",
+        "meta.return.type",
+        "meta.type.annotation",
 
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
