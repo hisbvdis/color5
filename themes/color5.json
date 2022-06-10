@@ -11,7 +11,7 @@
     "editor.rangeHighlightBackground": "#00000000",
     "editor.selectionHighlightBackground": "#add6ff80",
     "editorGroupHeader.tabsBackground": "#d4d4d4",
-    "editorIndentGuide.activeBackground": "#8f8f8f",
+    "editorIndentGuide.activeBackground": "#b3b3b3",
     "editorIndentGuide.background": "#dedede",
     "editorSuggestWidget.background": "#f3f3f3",
     "input.placeholderForeground": "#767676",
@@ -39,7 +39,7 @@
   "tokenColors": [{
       "scope": [
         "support.type.property-name.json",
-        "meta.object-literal.key string",
+        // "meta.object-literal.key string",
         "keyword.other.unit",
         "markup.bold markup.inline.raw",
 
@@ -57,8 +57,12 @@
       "scope": [
         "storage",
         "keyword",
+
         "meta.return.type",
         "meta.type.annotation",
+        "meta.type.parameters",
+
+        "constant.character",
 
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
